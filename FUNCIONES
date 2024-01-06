@@ -1,0 +1,11 @@
+export function greet(name: string = 'Mundo'){
+  console.log ('Hola' + name);
+}
+
+function addTwoNumbers(num1: number, num2: number):number{
+  return num1+num2;
+}
+
+let result:number = addTwoNumbers(20,30);
+
+console.log('Total',result);
